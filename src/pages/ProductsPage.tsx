@@ -1,4 +1,3 @@
-import React from 'react';
 import PageHeader from '../components/shared/PageHeader';
 import ProductCard from '../components/products/ProductCard';
 import SectionTitle from '../components/shared/SectionTitle';
@@ -6,8 +5,12 @@ import SectionTitle from '../components/shared/SectionTitle';
 const products = [
   {
     name: 'PET Preforms',
-    description: 'High-quality PET preforms for various bottle sizes and applications.',
-    image: 'https://images.unsplash.com/photo-1605618826115-fb9e775cf15d?auto=format&fit=crop&q=80',
+    // image:
+    //   'https://images.unsplash.com/photo-1605618826115-fb9e775cf15d?auto=format&fit=crop&q=80',
+    image: '/9.jpg',
+
+    description:
+      'High-quality PET preforms for various bottle sizes and applications.',
     features: [
       'Multiple neck sizes available',
       'Crystal clear transparency',
@@ -16,36 +19,79 @@ const products = [
     ],
   },
   {
-    name: 'PET Bottles',
-    description: 'Custom PET bottles designed for various industries and uses.',
-    image: 'https://images.unsplash.com/photo-1622016195010-b8db0f06c477?auto=format&fit=crop&q=80',
+    name: 'PET Jars',
+    image: '/10.jpg',
+    description: 'Durable and clear PET jars for food and cosmetics',
     features: [
-      'Customizable designs',
-      'Multiple size options',
-      'Food-grade material',
-      'Impact resistant',
+      'Various sizes and shapes',
+      'Highly durable',
+      'Perfect for storing food items and cosmetics',
+      'Crystal-clear design for visibility',
     ],
   },
-  // Add more products...
+  {
+    name: 'PET Bottles',
+    image: '/11.jpg',
+    description: 'Custom PET bottles for beverages and more',
+    features: [
+      'Available in multiple shapes and sizes',
+      'Lightweight and durable',
+      'Custom branding options available',
+      'Perfect for beverages and liquid packaging',
+    ],
+  },
+  {
+    name: 'HDPE Jars',
+    image: '/12.jpg',
+    description: 'Sturdy HDPE jars for various applications',
+    features: [
+      'Impact-resistant',
+      'Great for heavy-duty applications',
+      'Resistant to chemicals and oils',
+      'Ideal for industrial and food packaging',
+    ],
+  },
+  {
+    name: 'Caps & Closures',
+    image: '/8.jpg',
+    description: 'Precision-engineered caps and closures',
+    features: [
+      'Leak-proof design',
+      'Easy to use and reseal',
+      'Available in various sizes and materials',
+      'Durable and tamper-evident',
+    ],
+  },
+  {
+    name: 'Plastic Containers',
+    image: '/5.jpg',
+    description: 'Precision-engineered plastic containers for multiple uses',
+    features: [
+      'Variety of shapes and sizes',
+      'Tightly sealed lids for freshness',
+      'Durable and long-lasting',
+      'Suitable for food, pharmaceuticals, and industrial use',
+    ],
+  },
 ];
 
 const ProductsPage = () => {
   return (
     <div>
       <PageHeader
-        title="Our Products"
-        subtitle="Discover our range of high-quality plastic packaging solutions"
-        backgroundImage="https://images.unsplash.com/photo-1622016195010-b8db0f06c477?auto=format&fit=crop&q=80"
+        title='Our Products'
+        subtitle='Discover our range of high-quality plastic packaging solutions'
+        backgroundImage='https://images.unsplash.com/photo-1622016195010-b8db0f06c477?auto=format&fit=crop&q=80'
       />
-      
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <section className='py-16'>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <SectionTitle
-            title="Product Range"
-            subtitle="Explore our comprehensive range of plastic packaging solutions"
+            title='Product Range'
+            subtitle='Explore our comprehensive range of plastic packaging solutions'
           />
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {products.map((product) => (
               <ProductCard key={product.name} {...product} />
             ))}
