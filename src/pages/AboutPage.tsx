@@ -11,9 +11,9 @@ const AboutPage = () => {
         subtitle='A legacy of excellence in plastic manufacturing since 1997'
         backgroundImage='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80'
       />
+      <TeamSection />
       <CompanyHistory />
       <VisionMission />
-      <TeamSection />
     </div>
   );
 };
