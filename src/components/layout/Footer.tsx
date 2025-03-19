@@ -40,14 +40,14 @@ const Footer = () => {
                   Products
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to='/quality'
                   className='text-gray-400 hover:text-white transition-colors'
                 >
                   Quality Assurance
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to='/contact'
