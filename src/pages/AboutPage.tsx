@@ -65,7 +65,7 @@ const AboutPage: React.FC = () => {
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = "/images/placeholder.jpg";
+                    target.src = "public/1.jpg";
                   }}
                 />
               </div>
@@ -114,7 +114,7 @@ const AboutPage: React.FC = () => {
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = "/images/placeholder.jpg";
+                    target.src = "public/2.jpg";
                   }}
                 />
               </div>
