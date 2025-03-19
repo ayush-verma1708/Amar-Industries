@@ -40,39 +40,7 @@ const products = [
       'Perfect for beverages and liquid packaging',
     ],
   },
-  {
-    name: 'HDPE Jars',
-    image: '/12.jpg',
-    description: 'Sturdy HDPE jars for various applications',
-    features: [
-      'Impact-resistant',
-      'Great for heavy-duty applications',
-      'Resistant to chemicals and oils',
-      'Ideal for industrial and food packaging',
-    ],
-  },
-  {
-    name: 'Caps & Closures',
-    image: '/8.jpg',
-    description: 'Precision-engineered caps and closures',
-    features: [
-      'Leak-proof design',
-      'Easy to use and reseal',
-      'Available in various sizes and materials',
-      'Durable and tamper-evident',
-    ],
-  },
-  {
-    name: 'Plastic Containers',
-    image: '/5.jpg',
-    description: 'Precision-engineered plastic containers for multiple uses',
-    features: [
-      'Variety of shapes and sizes',
-      'Tightly sealed lids for freshness',
-      'Durable and long-lasting',
-      'Suitable for food, pharmaceuticals, and industrial use',
-    ],
-  },
+ 
 ];
 
 const ProductsPage = () => {

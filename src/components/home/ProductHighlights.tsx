@@ -1,7 +1,7 @@
 const products = [
   {
     name: 'PET Preforms',
-    image: '/9.jpg',
+    image: '/18.jpg',
     description: 'High-quality PET preforms for various bottle sizes',
   },
   {
@@ -14,21 +14,7 @@ const products = [
     image: '/11.jpg',
     description: 'Custom PET bottles for beverages and more',
   },
-  {
-    name: 'HDPE Jars',
-    image: '/12.jpg',
-    description: 'Sturdy HDPE jars for various applications',
-  },
-  {
-    name: 'Caps & Closures',
-    image: '/8.jpg',
-    description: 'Precision-engineered caps and closures',
-  },
-  {
-    name: 'Plastic Containers',
-    image: '/5.jpg',
-    description: 'Precision-engineered caps and closures',
-  },
+ 
 ];
 
 const ProductHighlights = () => {
