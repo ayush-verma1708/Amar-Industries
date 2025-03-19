@@ -60,12 +60,12 @@ const AboutPage: React.FC = () => {
             <div className="flex-1">
               <div className="bg-gray-200 h-80 mb-4 flex items-center justify-center rounded-lg overflow-hidden">
                 <img 
-                  src="public/1.jpg" 
+                  src="/1.jpg" 
                   alt="Manufacturing Facility" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = "public/1.jpg";
+                    target.src = "/1.jpg";
                   }}
                 />
               </div>
@@ -109,12 +109,12 @@ const AboutPage: React.FC = () => {
             <div className="flex-1 order-1 md:order-2">
               <div className="bg-gray-200 h-80 mb-4 flex items-center justify-center rounded-lg overflow-hidden">
                 <img 
-                  src="public/2.jpg" 
+                  src="/2.jpg" 
                   alt="Product Samples" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = "public/2.jpg";
+                    target.src = "/2.jpg";
                   }}
                 />
               </div>
