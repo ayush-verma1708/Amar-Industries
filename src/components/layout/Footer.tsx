@@ -38,9 +38,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Contact Info</h4>
             <address className="text-gray-400 text-sm not-italic space-y-2">
-              <p>123 Industrial Area, Mumbai</p>
-              <p>Maharashtra, India - 400001</p>
-              <p className="mt-2">📞 +91 1234567890</p>
+              <p>B-54, Maharajpura, Industrial Area,</p>
+              <p>Gwalior, Madhya Pradesh 474005</p>
+              <p className="mt-2">📞 +91 82240 00620</p>
               <p>✉️ info@amarindustries.com</p>
             </address>
           </div>
