@@ -7,9 +7,9 @@ import ProductsPage from './pages/ProductsPage';
 import QualityPage from './pages/QualityPage';
 import ContactPage from './pages/ContactPage';
 import WhatsAppButton from './generalComponents/WhatsAppButton'; // Import the WhatsApp button
-import bottles from './pages/Bottles';
-import jars from './pages/Jars';
-import preforms from './pages/preforms';
+import BottlesPage from './pages/Bottles';
+import PreformsPage from './pages/preforms';
+import JarsPage from './pages/Jars';
 
 export function App() {
   return (
@@ -23,8 +23,9 @@ export function App() {
             <Route path='/products' element={<ProductsPage />} />
             <Route path='/quality' element={<QualityPage />} />
             <Route path='/contact' element={<ContactPage />} />
-            <Route path='/contact' element={<ContactPage />} />
-            <Route path='/contact' element={<ContactPage />} />
+            <Route path='/bottles' element={<BottlesPage />} />
+            <Route path='/preforms' element={< PreformsPage/>} />
+            <Route path='/jars' element={< JarsPage/>} />
           </Routes>
         </main>
         <Footer />
