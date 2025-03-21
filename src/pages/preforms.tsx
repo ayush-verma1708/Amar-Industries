@@ -2,9 +2,9 @@
 export default function PreformsGrid() {
   const preforms = [
     // Regular Preforms
-    { id: 1, type: "29/21 Alaska", usage: "Water Packing", color: "blue", category: "Bottles", image: "/preformAlaska.jpg" },
+    { id: 1, type: "29/21 Alaska", usage: "Water Packing", color: "blue", category: "Bottles", image: "/preformAlaska.png" },
     { id: 2, type: "29/21 CTC", usage: "Edible/Palm Oil", color: "yellow", category: "Bottles", image: "/preform-ctc.jpg" },
-    { id: 3, type: "29/21 TST", usage: "Soda & Cold Drinks", color: "green", category: "Bottles", image: "/preform-tst.png" },
+    { id: 3, type: "29/21 PCO", usage: "Soda & Cold Drinks", color: "green", category: "Bottles", image: "/preform-tst.png" },
     
     // Wide Mouth Preforms
     { id: 4, type: "83mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "/preform-wide.png" },
@@ -86,10 +86,6 @@ export default function PreformsGrid() {
                 Premium Quality
               </div>
 
-              {/* View Details Button */}
-              <button className="mt-4 px-4 py-2 border border-gray-300 text-gray-600 rounded-lg text-sm font-medium hover:bg-gray-50 transition-all w-full">
-                View Details
-              </button>
             </div>
           );
         })}
