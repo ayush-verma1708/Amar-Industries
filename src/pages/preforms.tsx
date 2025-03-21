@@ -15,7 +15,7 @@ export default function PreformsGrid() {
     
     // Closures
     { id: 9, type: "Standard Closure", usage: "For Bottles", color: "gray", category: "Closure", image: "/closure-standard.png" },
-    { id: 10, type: "Wide Mouth Closure", usage: "For Jars", color: "gray", category: "Closure", image: "/closure-wide.png" }
+    { id: 10, type: "Wide Mouth ", usage: "For Jars", color: "gray", category: "Closure", image: "/closure-wide.png" }
   ];
 
   const getTextColorClass = (color) => {
