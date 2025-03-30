@@ -1,7 +1,7 @@
 const products = [
   {
     name: 'PET Preforms',
-    image: '/18.jpg',
+    image: '/19.jpg',
     description: 'High-quality PET preforms for various bottle sizes',
   },
   {
