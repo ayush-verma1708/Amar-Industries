@@ -41,7 +41,7 @@ const Footer = () => {
               <p>B-54, Maharajpura, Industrial Area,</p>
               <p>Gwalior, Madhya Pradesh 474005</p>
               <p className="mt-2">📞 +91 82240 00620</p>
-              <p>✉️ info@amarindustry.com</p>
+              <p>✉️ info@amarindustries.co.in</p>
             </address>
           </div>
         </div>
