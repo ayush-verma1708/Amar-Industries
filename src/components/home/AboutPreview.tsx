@@ -9,7 +9,7 @@ const AboutPreview = () => {
           {/* Image Section */}
           <div>
             <img
-              src="/13.png"
+              src="/13.jpg"
               alt="Factory"
               className="rounded-lg shadow-xl"
             />
