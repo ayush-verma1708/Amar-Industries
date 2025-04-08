@@ -68,11 +68,11 @@ const ContactPage = () => {
         <iframe
           title="Our Location"
           className="w-full h-full rounded-lg shadow-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.994633951644!2d78.1825!3d26.2183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDEzJzEwLjgiTiA3OMKwMTEnMTIuOCJF!5e0!3m2!1sen!2sin!4v1612345678901!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.231159625218!2d78.21942787541688!3d26.254160077045835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c12254916b6f%3A0xbaaa1a4cea23dfbf!2sAMAR%20INDUSTRIES!5e0!3m2!1sen!2sin!4v1744086011262!5m2!1sen!2sin"
           allowFullScreen
           loading="lazy"
         ></iframe>
-      </section>
+  </section>
     </div>
   );
 };

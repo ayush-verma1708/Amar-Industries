@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: 'About Us', href: '/about' },
     { name: 'Bottles', href: '/bottles' },
     { name: 'Preforms', href: '/preforms' },
-    { name: 'Jars', href: '/jars' },
+    { name: 'Jars & Packaging Solutions', href: '/jars' },
     { name: 'Contact Us', href: '/contact' },
   ];
 
