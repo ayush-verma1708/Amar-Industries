@@ -169,6 +169,7 @@ const AboutPreview = () => {
 };
 
 export default AboutPreview;
+
 // import { ArrowRight, Award, Users, Clock, MapPin } from 'lucide-react';
 // import { useEffect, useRef } from "react";
 
