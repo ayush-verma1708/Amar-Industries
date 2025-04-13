@@ -20,7 +20,7 @@ const products = [
   },
   {
     name: 'PET Jars',
-    image: '/10.jpg',
+    image: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/10_tdofjj.jpg',
     description: 'Durable and clear PET jars for food and cosmetics',
     features: [
       'Various sizes and shapes',
@@ -31,7 +31,7 @@ const products = [
   },
   {
     name: 'PET Bottles',
-    image: '/11.jpg',
+    image: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538617/11_zmehpr.jpg',
     description: 'Custom PET bottles for beverages and more',
     features: [
       'Available in multiple shapes and sizes',

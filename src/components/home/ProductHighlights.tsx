@@ -1,17 +1,17 @@
 const products = [
   {
     name: 'PET Preforms',
-    image: '/19.jpg',
+    image: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538616/19_sqrqo8.jpg',
     description: 'High-quality PET preforms for various bottle sizes',
   },
   {
     name: 'PET Jars',
-    image: '/10.jpg',
+    image: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/10_tdofjj.jpg',
     description: 'Durable and clear PET jars for food and cosmetics',
   },
   {
     name: 'PET Bottles',
-    image: '/11.jpg',
+    image: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538617/11_zmehpr.jpg',
     description: 'Custom PET bottles for beverages and more',
   },
  

@@ -2,20 +2,20 @@
 export default function PreformsGrid() {
   const preforms = [
     // Regular Preforms
-    { id: 1, type: "29/21 Alaska", usage: "Water Packing", color: "blue", category: "Bottles", image: "/preformAlaska.png" },
-    { id: 2, type: "29/21 CTC", usage: "Edible/Palm Oil", color: "yellow", category: "Bottles", image: "/preform-ctc.jpg" },
-    { id: 3, type: "29/21 PCO", usage: "Soda & Cold Drinks", color: "green", category: "Bottles", image: "/preform-tst.png" },
+    { id: 1, type: "29/21 Alaska", usage: "Water Packing", color: "blue", category: "Bottles", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/preformAlaska_z30eho.png" },
+    { id: 2, type: "29/21 CTC", usage: "Edible/Palm Oil", color: "yellow", category: "Bottles", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538617/preform-ctc_fbtudl.jpg" },
+    { id: 3, type: "29/21 PCO", usage: "Soda & Cold Drinks", color: "green", category: "Bottles", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538620/preform-tst_tt8ihv.png" },
     
     // Wide Mouth Preforms
-    { id: 4, type: "83mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "/preform-wide.png" },
-    { id: 5, type: "90mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "/preform-wide.png" },
-    { id: 6, type: "100mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "/preform-wide.png" },
-    { id: 7, type: "110mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "/preform-wide.png" },
-    { id: 8, type: "120mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "/preform-wide.png" },
+    { id: 4, type: "83mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/preform-wide_faeitb.png" },
+    { id: 5, type: "90mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/preform-wide_faeitb.png" },
+    { id: 6, type: "100mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/preform-wide_faeitb.png" },
+    { id: 7, type: "110mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/preform-wide_faeitb.png" },
+    { id: 8, type: "120mm", usage: "Wide Mouth Container", color: "purple", category: "Wide Mouth", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/preform-wide_faeitb.png" },
     
     // Closures
-    { id: 9, type: "Standard Closure", usage: "For Bottles", color: "gray", category: "Closure", image: "/closure-standard.png" },
-    { id: 10, type: "Wide Mouth ", usage: "For Jars", color: "gray", category: "Closure", image: "/closure-wide.png" }
+    { id: 9, type: "Standard Closure", usage: "For Bottles", color: "gray", category: "Closure", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538616/closure-standard_nwslpu.png" },
+    { id: 10, type: "Wide Mouth ", usage: "For Jars", color: "gray", category: "Closure", image: "https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538616/closure-wide_csh1xu.png" }
   ];
 
   const getTextColorClass = (color) => {

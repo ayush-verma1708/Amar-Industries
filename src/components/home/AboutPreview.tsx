@@ -34,7 +34,7 @@ const AboutPreview = () => {
           <div className="rounded-xl overflow-hidden shadow-2xl">
             <video
               ref={videoRef}
-              src="/1.mp4"
+              src="https://res.cloudinary.com/dzfpuadsb/video/upload/v1744538625/1_uwuoxw.mp4"
               className="w-full rounded-xl"
               controls
               autoPlay

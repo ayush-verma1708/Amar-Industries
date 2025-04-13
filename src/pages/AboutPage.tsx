@@ -94,7 +94,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="flex-1">
               <div className="bg-blue-100 h-80 flex items-center justify-center rounded-lg overflow-hidden">
-                <img src="/2.jpg" alt="Product Samples" className="w-full h-full object-cover" />
+                <img src="https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538615/2_xntige.jpg" alt="Product Samples" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

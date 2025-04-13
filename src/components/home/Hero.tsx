@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const images = ['/14.jpg', '/15.jpg', '/16.jpg', '/17.jpg'];
+const images = ['https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538619/17_ai16oy.jpg', 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538619/15_srqjn5.jpg', 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/16_v4c3lf.jpg', 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538618/14_pbajav.jpg'];
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
