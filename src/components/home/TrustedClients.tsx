@@ -1,13 +1,13 @@
 const clients = [
     {
-      name: 'Britannia',
+      name: 'Britannia Industries Limited',
       logo: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744542110/britannia_emipuy.png',
     }, {
-      name: 'Tropolite',
+      name: 'Tropolite Foods Pvt. Ltd.',
       logo: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744542111/tropolite_azptfr.png',
     },
     {
-      name: 'Nova',
+      name: 'Nova Dairy Products Limited',
       logo: 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744542110/nova_xwzcs3.png',
     }
   ];
