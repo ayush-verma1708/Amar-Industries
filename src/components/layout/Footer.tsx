@@ -1,6 +1,13 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Linkedin, Instagram } from 'lucide-react';
-
+const quickLinks = [
+  { name: 'Home', href: '/' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Bottles', href: '/bottles' },
+  { name: 'Preforms', href: '/preforms' },
+  { name: 'Jars & Packaging Solutions', href: '/jars' },
+  { name: 'Contact Us', href: '/contact' },
+];
 const Footer = () => {
   return (
     <footer className="bg-blue-950 text-gray-200 py-12">
@@ -18,7 +25,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {["Home", "About Us", "Products", "Contact Us"].map((item) => (
@@ -32,7 +39,23 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
+ <div>
+    <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+    <ul className="space-y-2">
+      {quickLinks.map((link) => (
+        <li key={link.name}>
+          <Link
+            to={link.href}
+            className="text-gray-300 hover:text-gray-100 transition-all duration-300"
+          >
+            {link.name}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+
 
           {/* Contact Info */}
           <div>
@@ -55,14 +78,14 @@ const Footer = () => {
           </p>
 
           {/* Social Icons */}
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          {/* <div className="flex space-x-6 mt-4 md:mt-0">
             {[{ Icon: Facebook, link: '#' }, { Icon: Linkedin, link: '#' }, { Icon: Instagram, link: '#' }].map(({ Icon, link }) => (
               <a key={link} href={link} target="_blank" rel="noopener noreferrer" 
                 className="text-gray-300 hover:text-gray-100 transition-all duration-300">
                 <Icon className="h-6 w-6" />
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
