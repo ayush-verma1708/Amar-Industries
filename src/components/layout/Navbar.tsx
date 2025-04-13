@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo from 'https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538617/logo_ol8hzu.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +26,7 @@ const Navbar = () => {
   className="absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none"
 >
   <img
-    src={logo}
+    src="https://res.cloudinary.com/dzfpuadsb/image/upload/v1744538617/logo_ol8hzu.png"
     alt="Amar Industries"
     className="h-16 sm:h-20 md:h-16 w-auto transition-transform duration-300 hover:scale-105"
   />
