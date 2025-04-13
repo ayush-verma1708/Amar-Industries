@@ -55,8 +55,22 @@ const AboutPage: React.FC = () => {
         >
           <div className="flex flex-col md:flex-row gap-12">
             <div className="flex-1">
-              <div className="bg-blue-100 h-80 flex items-center justify-center rounded-lg overflow-hidden">
-                <img src="/1.jpg" alt="Manufacturing Facility" className="w-full h-full object-cover" />
+              <div className="bg-blue-50 rounded-lg p-6 h-full shadow-sm">
+                <h3 className="text-xl font-medium text-blue-800 mb-4">Manufacturing Excellence</h3>
+                <div className="space-y-4">
+                  {[
+                    { icon: "🏭", text: "25,000 sq ft state-of-the-art facility" },
+                    { icon: "⚙️", text: "Advanced injection & blow molding machinery" },
+                    { icon: "🔍", text: "Rigorous quality control protocols" },
+                    { icon: "🛠️", text: "In-house tool room & maintenance" },
+                    { icon: "📊", text: "ISO 9001:2015 certified processes" }
+                  ].map((item, index) => (
+                    <div key={index} className="flex items-center">
+                      <span className="text-2xl mr-3">{item.icon}</span>
+                      <span className="text-gray-700">{item.text}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
             <div className="flex-1">
@@ -64,6 +78,10 @@ const AboutPage: React.FC = () => {
               <p className="text-lg text-gray-700 mb-6">
                 Our state-of-the-art infrastructure, combined with a dedicated workforce, ensures 
                 that Amar Industries delivers products that meet global quality standards.
+              </p>
+              <p className="text-lg text-gray-700">
+                With continuous investment in the latest technologies and equipment, we maintain 
+                our position as an industry leader in plastic manufacturing excellence.
               </p>
             </div>
           </div>

@@ -144,7 +144,7 @@ const AboutPreview = () => {
               </div>
 
               {/* Locations */}
-              <div className="flex items-start bg-amber-50 p-6 rounded-lg transition-all duration-300 hover:shadow-md">
+              {/* <div className="flex items-start bg-amber-50 p-6 rounded-lg transition-all duration-300 hover:shadow-md">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-14 w-14 rounded-full bg-amber-500 text-white shadow-md">
                     <MapPin className="h-6 w-6" />
@@ -159,7 +159,7 @@ const AboutPreview = () => {
                     Strategic locations for efficient delivery.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
